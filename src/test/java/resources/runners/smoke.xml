@@ -3,13 +3,13 @@
 <suite name="testsuite" verbose="1">
     <groups>
         <run>
-            <include name="smoke"></include>
+            <include name="regression"></include>
         </run>
     </groups>
-    <test name="Smoke Test">
+    <test name="smoke Test">
         <classes>
-            <class name="com.automation.testsuite.SignPageTest"></class>
             <class name="com.automation.testsuite.CreateAccountPageTest"></class>
+            <class name="com.automation.testsuite.SignPageTest"></class>
             <class name="com.automation.testsuite.WomenCategoryPageTest"></class>
         </classes>
     </test>

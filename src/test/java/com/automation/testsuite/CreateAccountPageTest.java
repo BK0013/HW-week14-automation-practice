@@ -32,8 +32,8 @@ public class CreateAccountPageTest extends TestBase {
     {
         homePage.setClickOnSignInLink();
         signINPage.setClickOnCreateAnAccount("abc"+timeStamp+"@gmail.com");
-        createAccountPage.fillPersonalInformationForm("Krishna","Patel","abc1234");
-        createAccountPage.fillYourAddressDetails("1 Nice Building","Harrow","London","02345","UK","0123456789","main home");
+        createAccountPage.fillPersonalInformationForm("BK","Patel","abc1234");
+        createAccountPage.fillYourAddressDetails("1 The Chine","Wembley","London","HA0 3EH","UK","0123456789","main home");
         String expectedTest= "My account";
         String actualTest= createAccountPage.verifyMyAccountText();
         softAssert.assertEquals(expectedTest,actualTest);

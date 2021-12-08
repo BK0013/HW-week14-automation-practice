@@ -8,9 +8,9 @@
     </groups>
     <test name="regression Test">
         <classes>
+            <class name="com.automation.testsuite.CreateAccountPageTest"></class>
             <class name="com.automation.testsuite.SignPageTest"></class>
             <class name="com.automation.testsuite.WomenCategoryPageTest"></class>
-            <class name="com.automation.testsuite.CreateAccountPageTest"></class>
         </classes>
     </test>
 </suite>

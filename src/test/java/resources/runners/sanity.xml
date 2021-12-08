@@ -6,7 +6,7 @@
             <include name="regression"></include>
         </run>
     </groups>
-    <test name="Sanity Test">
+    <test name="sanity Test">
         <classes>
             <class name="com.automation.testsuite.CreateAccountPageTest"></class>
             <class name="com.automation.testsuite.SignPageTest"></class>
